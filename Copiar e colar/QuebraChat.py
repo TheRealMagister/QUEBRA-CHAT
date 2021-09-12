@@ -2,6 +2,6 @@
 
 import pyautogui, time
 time.sleep(1)
-for i in range(15):
+for i in range(0)
     pyautogui.hotkey('ctrl','v')
     pyautogui.press('enter')
