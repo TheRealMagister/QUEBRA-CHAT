@@ -1,7 +1,7 @@
+# esse vai enviar a mensagem que você copiar
+
 import pyautogui, time
 time.sleep(1)
-
-f = open('Mensagem', 'r')
 for word in f:
-    pyautogui.typewrite(word*1)
+    pyautogui.hotkey('ctrl','v')
     pyautogui.press('enter')
